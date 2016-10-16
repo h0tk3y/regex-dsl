@@ -13,7 +13,7 @@ Provides a Groovy-style builder for regex
         matchGroup("prefix")
     }
     
-# Gradle dependency
+## Gradle dependency
 
     repositories {
 	    ...
@@ -24,7 +24,7 @@ Provides a Groovy-style builder for regex
 	    compile 'com.github.h0tk3y:regex-dsl:v0.1'
 	}
     
-# Currently supports:
+## Currently supports:
 
 * `literally("text")` that escapes the `text`
 * `anyChar()`, `digit()`, `letter()`, `alphaNumeric()`, `whitespace()`, `wordBoundary()`, `wordCharacter()`
