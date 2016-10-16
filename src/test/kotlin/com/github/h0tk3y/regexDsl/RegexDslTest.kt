@@ -143,7 +143,3 @@ class RegexDslTest {
         assertEquals("def", mInclude!!.groupValues[g2])
     }
 }
-
-fun main(args: Array<String>) {
-
-}
