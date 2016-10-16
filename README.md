@@ -13,7 +13,18 @@ Provides a Groovy-style builder for regex
         matchGroup("prefix")
     }
     
-Currently supports:
+# Gradle dependency
+
+    repositories {
+	    ...
+		maven { url "https://jitpack.io" }
+	}
+    
+    dependencies {
+	    compile 'com.github.h0tk3y:regex-dsl:v0.1'
+	}
+    
+# Currently supports:
 
 * `literally("text")` that escapes the `text`
 * `anyChar()`, `digit()`, `letter()`, `alphaNumeric()`, `whitespace()`, `wordBoundary()`, `wordCharacter()`
