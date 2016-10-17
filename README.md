@@ -1,17 +1,12 @@
 # regex-dsl
 A Kotlin DSL for regular expressions
 
-Provides a Groovy-style builder for regex
+[![Logo](https://dl.dropbox.com/s/v9cqloqxsior71w/regex_dsl_1.png)
 
-    val r = regex {
-        group("prefix") {
-            literally("+")
-            oneOrMore { digit(); letter() }
-        }
-        3 times { digit() }
-        literally(";")
-        matchGroup("prefix")
-    }
+[![Release](https://jitpack.io/v/h0tk3y/regex-dsl.svg)](https://jitpack.io/#h0tk3y/regex-dsl)
+![Kotlin version](https://img.shields.io/badge/kotlin-1.0.4-blue.svg)
+
+Provides a Groovy-style builder for regex with safe quantifiers and groups. Readable and extensible.
     
 ## Gradle dependency
 
