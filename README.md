@@ -1,7 +1,7 @@
 # regex-dsl
 A Kotlin DSL for regular expressions
 
-[![Logo](https://dl.dropbox.com/s/v9cqloqxsior71w/regex_dsl_1.png)
+![Logo](https://dl.dropbox.com/s/v9cqloqxsior71w/regex_dsl_1.png)
 
 [![Release](https://jitpack.io/v/h0tk3y/regex-dsl.svg)](https://jitpack.io/#h0tk3y/regex-dsl)
 ![Kotlin version](https://img.shields.io/badge/kotlin-1.0.4-blue.svg)
